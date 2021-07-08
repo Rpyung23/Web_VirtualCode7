@@ -14,7 +14,6 @@
 
 <body>
     <div class="particles" id="particles-js">
-
     </div>
 
     <div id="header" class="container-header">
@@ -25,7 +24,7 @@
                 <li><a href="#header">Inicio</a></li>
                 <li><a href="#nosotros">Acerca de</a></li>
                 <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#ubicacion">Ubicanos</a></li>
+                <li><a href="#ubicacion">Ubícanos</a></li>
             </ul>
         </div>
 
@@ -35,12 +34,12 @@
             <div class="texto-sub-header">
                 <h1>Software</h1>
                 <h4>Desarrollo a la medida</h4>
-                <p>Ideamos herramienta digitales e intuitivas ediante a la metodología Desing thinking.</p>
+                <p>Ideamos herramienta digitales e intuitivas mediante a la metodología Desing thinking.</p>
 
                 <br>
 
-                <a href="#ubicacion" class="button-a"><label  class="align-label-button" for="">Contactanos</label></a>
-                <a href="#servicios" class="button-a-boder"><label class="align-label-button" for="">Servicios</label></a>
+                <a href="#contacto" class="button-a"><label  class="align-label-button" for="">Contactanos</label></a>
+                <a href="#ubicacion" class="button-a-boder"><label class="align-label-button" for="">Servicios</label></a>
 
             </div>
 
@@ -116,7 +115,7 @@
 
         <div class="elegir">
 
-            <h2>¿ Por qué elegir <strong>VirtualCode7</strong> ?</h2>
+            <h2>¿ Por qué elegir <strong>VirtualCode7</strong>?</h2>
 
             <br>
 
@@ -220,31 +219,31 @@
         </div>
     </section>
 
-    <div class="content">
+    <div id="contacto" class="content">
         <h1 class="logo">Contáctanos</h1>
         <div class="contact-wrapper">
             <div class="contact-form">
                 <h3>Escríbenos</h3>
-                <form action="">
+                <form  id="form" action="https://formspree.io/f/xvodqjbo" method="POST">
                     <p>
-                        <label for="">Nombres Completos</label>
-                        <input type="text" name="nombres" id="nombres">
+                        <label for="name">Nombres</label>
+                        <input type="text" name="name" id="nombres" required>
                     </p>
                     <p>
-                        <label for="">Email</label>
-                        <input type="email" name="email" id="email">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
                     </p>
                     <p>
-                        <label for="">Teléfono</label>
-                        <input type="tel" name="telefono">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" name="phone" required>
                     </p>
                     <p>
                         <label for="">Asunto</label>
-                        <input type="text" name="asunto">
+                        <input type="text" name="asunto" required>
                     </p>
                     <p class="block">
-                        <label for="">Mensaje</label>
-                        <textarea name="mensaje"  rows="3"></textarea>
+                        <label for="message">Mensaje</label>
+                        <textarea name="message"  rows="3" required></textarea>
                     </p>
                     <p class="block">
                         <button type="submit">Enviar</button>
@@ -255,10 +254,10 @@
                 <h4>Más Información</h4>
                 <ul>
                     <li><i class="fas fa-map-marker-alt"></i> Calles</li>
-                    <li><i class="fas fa-phone"></i> 0900000000</li>
-                    <li><i class="fas fa-envelope-open-text"></i> virtual@code.com</li>
+                    <li><i class="fas fa-phone"></i> 0993706012</li>
+                    <li><i class="fas fa-envelope-open-text"></i> virtualcode7@gmail.com</li>
                 </ul>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem dolore dolorem qui quas hic! Amet.</p>
+                <p>Estaremos encantados de trabajar contigo, comunícate con nosotros</p>
                 <p>Virtualcode7</p>
             </div>
         </div>
@@ -267,11 +266,13 @@
     <footer>
         <div class="footer-botones">
             <div class="circle-btn-redes">
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M137.6,22.93333h-103.2c-6.33533,0 -11.46667,5.13133 -11.46667,11.46667v103.2c0,6.33533 5.13133,11.46667 11.46667,11.46667h57.33333v-51.6h-17.2v-17.2h17.2v-9.2364c0,-17.48667 8.51973,-25.1636 23.05373,-25.1636c6.96027,0 10.64107,0.516 12.384,0.75107v16.44893h-9.91293c-6.16907,0 -8.3248,3.25653 -8.3248,9.84987v7.35013h18.08293l-2.45387,17.2h-15.62907v51.6h28.66667c6.33533,0 11.46667,-5.13133 11.46667,-11.46667v-103.2c0,-6.33533 -5.13707,-11.46667 -11.46667,-11.46667z"></path></g></g></svg>
+                <svg  xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M137.6,22.93333h-103.2c-6.33533,0 -11.46667,5.13133 -11.46667,11.46667v103.2c0,6.33533 5.13133,11.46667 11.46667,11.46667h57.33333v-51.6h-17.2v-17.2h17.2v-9.2364c0,-17.48667 8.51973,-25.1636 23.05373,-25.1636c6.96027,0 10.64107,0.516 12.384,0.75107v16.44893h-9.91293c-6.16907,0 -8.3248,3.25653 -8.3248,9.84987v7.35013h18.08293l-2.45387,17.2h-15.62907v51.6h28.66667c6.33533,0 11.46667,-5.13133 11.46667,-11.46667v-103.2c0,-6.33533 -5.13707,-11.46667 -11.46667,-11.46667z"></path></g></g><a target="_blank" href="https://wa.me/593983841134"></a></svg>                
             </div>
 
             <div class="circle-btn-redes">
-                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M136.7185,35.31733c-13.51633,-13.5235 -31.49033,-20.97683 -50.63967,-20.984c-39.45967,0 -71.5735,32.0995 -71.58783,71.55917c-0.00717,12.61333 3.2895,24.92567 9.55317,35.776l-9.71083,35.99817l37.50317,-8.86517c10.45617,5.70467 22.22383,8.7075 34.2065,8.71467h0.02867c39.4525,0 71.56633,-32.10667 71.58783,-71.55917c0.01433,-19.12783 -7.42467,-37.109 -20.941,-50.63967zM121.10233,111.47033c-1.49067,4.17817 -8.7935,8.20583 -12.07583,8.49967c-3.28233,0.301 -6.35683,1.4835 -21.46417,-4.472c-18.18183,-7.16667 -29.66283,-25.80717 -30.5515,-26.99683c-0.89583,-1.19683 -7.30283,-9.6965 -7.30283,-18.49717c0,-8.80067 4.6225,-13.12933 6.26367,-14.91383c1.64117,-1.79167 3.57617,-2.236 4.773,-2.236c1.18967,0 2.3865,0 3.42567,0.043c1.27567,0.05017 2.6875,0.11467 4.02767,3.08883c1.591,3.54033 5.06683,12.384 5.51117,13.27983c0.44433,0.89583 0.74533,1.94217 0.1505,3.13183c-0.59483,1.18967 -0.89583,1.935 -1.7845,2.98133c-0.89583,1.04633 -1.87767,2.32917 -2.68033,3.13183c-0.89583,0.88867 -1.8275,1.86333 -0.78833,3.64783c1.04633,1.79167 4.62967,7.64683 9.94733,12.384c6.837,6.09167 12.59183,7.9765 14.3835,8.8795c1.79167,0.89583 2.83083,0.74533 3.87717,-0.4515c1.04633,-1.18967 4.472,-5.21733 5.66167,-7.009c1.18967,-1.79167 2.3865,-1.49067 4.02767,-0.89583c1.64117,0.59483 10.43467,4.9235 12.21917,5.81933c1.79167,0.89583 2.98133,1.34017 3.42567,2.0855c0.44433,0.73817 0.44433,4.3215 -1.04633,8.49967z"></path></g></g></svg>
+                <a target="_blank" href="https://wa.me/593993706012">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M136.7185,35.31733c-13.51633,-13.5235 -31.49033,-20.97683 -50.63967,-20.984c-39.45967,0 -71.5735,32.0995 -71.58783,71.55917c-0.00717,12.61333 3.2895,24.92567 9.55317,35.776l-9.71083,35.99817l37.50317,-8.86517c10.45617,5.70467 22.22383,8.7075 34.2065,8.71467h0.02867c39.4525,0 71.56633,-32.10667 71.58783,-71.55917c0.01433,-19.12783 -7.42467,-37.109 -20.941,-50.63967zM121.10233,111.47033c-1.49067,4.17817 -8.7935,8.20583 -12.07583,8.49967c-3.28233,0.301 -6.35683,1.4835 -21.46417,-4.472c-18.18183,-7.16667 -29.66283,-25.80717 -30.5515,-26.99683c-0.89583,-1.19683 -7.30283,-9.6965 -7.30283,-18.49717c0,-8.80067 4.6225,-13.12933 6.26367,-14.91383c1.64117,-1.79167 3.57617,-2.236 4.773,-2.236c1.18967,0 2.3865,0 3.42567,0.043c1.27567,0.05017 2.6875,0.11467 4.02767,3.08883c1.591,3.54033 5.06683,12.384 5.51117,13.27983c0.44433,0.89583 0.74533,1.94217 0.1505,3.13183c-0.59483,1.18967 -0.89583,1.935 -1.7845,2.98133c-0.89583,1.04633 -1.87767,2.32917 -2.68033,3.13183c-0.89583,0.88867 -1.8275,1.86333 -0.78833,3.64783c1.04633,1.79167 4.62967,7.64683 9.94733,12.384c6.837,6.09167 12.59183,7.9765 14.3835,8.8795c1.79167,0.89583 2.83083,0.74533 3.87717,-0.4515c1.04633,-1.18967 4.472,-5.21733 5.66167,-7.009c1.18967,-1.79167 2.3865,-1.49067 4.02767,-0.89583c1.64117,0.59483 10.43467,4.9235 12.21917,5.81933c1.79167,0.89583 2.98133,1.34017 3.42567,2.0855c0.44433,0.73817 0.44433,4.3215 -1.04633,8.49967z"></path></g></g></svg>
+                </a>
             </div>
 
             <div class="circle-btn-redes">
@@ -280,9 +281,29 @@
         </div>
 
     </footer>
-
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
+    <script>
+        const $form = document.querySelector('#form')
+
+        $form.addEventListener('submit', handleSubmit)
+
+        async function handleSubmit(e) {
+            e.preventDefault()
+            const form = new FormData(this)
+            const response = await fetch(this.action, {
+                method: this.method,
+                body: form,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            if(response.ok){
+                this.reset()
+                alert('Gracias por contactarnos')
+            }
+        }
+    </script>
 </body>
 
 </html>
